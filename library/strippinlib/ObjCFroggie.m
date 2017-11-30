@@ -8,21 +8,30 @@
 
 #import "ObjCFroggie.h"
 
+#if FLAGS_DEFAULT
+#define TAG " [lib default 🏳️]"
+#endif // FLAGS_DEFAULT
+
+#if FLAGS_EXTRA
+#define TAG " [lib extra 🏴󠁧󠁢󠁳󠁣󠁴󠁿🏴󠁧󠁢󠁳󠁣󠁴󠁿]"
+#endif // FLAGS_EXTRA
+
+
 NSString *froggie_c_ribbit(void)
 {
-    return @"ribbit, c";
+    return @"ribbit, c" TAG;
 }
 
 @implementation ObjCFroggie
 
 + (NSString *)froggieClassRibbit
 {
-    return @"ribbit, class";
+    return @"ribbit, class" TAG;
 }
 
 - (NSString *)froggieInstanceRibbit
 {
-    return @"ribbit, instance";
+    return @"ribbit, instance" TAG;
 }
 
 @end

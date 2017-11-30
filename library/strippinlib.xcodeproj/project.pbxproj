@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB58F9D41FD0495900D6F39A /* ObjCFroggie.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD03A2F1FCF667D0091BF63 /* ObjCFroggie.m */; };
+		BB58F9D71FD0495900D6F39A /* ObjCFroggie.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD03A2E1FCF667D0091BF63 /* ObjCFroggie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB58F9D81FD0495900D6F39A /* strippinlib.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD03A241FCF65D50091BF63 /* strippinlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBD03A271FCF65D50091BF63 /* strippinlib.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD03A241FCF65D50091BF63 /* strippinlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBD03A301FCF667D0091BF63 /* ObjCFroggie.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD03A2E1FCF667D0091BF63 /* ObjCFroggie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBD03A311FCF667D0091BF63 /* ObjCFroggie.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD03A2F1FCF667D0091BF63 /* ObjCFroggie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB58F9DC1FD0495900D6F39A /* libstrippinlibextra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstrippinlibextra.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD03A211FCF65D50091BF63 /* libstrippinlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstrippinlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD03A241FCF65D50091BF63 /* strippinlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strippinlib.h; sourceTree = "<group>"; };
 		BBD03A2E1FCF667D0091BF63 /* ObjCFroggie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCFroggie.h; sourceTree = "<group>"; };
@@ -20,6 +24,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BB58F9D51FD0495900D6F39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBD03A1E1FCF65D50091BF63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				BBD03A211FCF65D50091BF63 /* libstrippinlib.a */,
+				BB58F9DC1FD0495900D6F39A /* libstrippinlibextra.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +71,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		BB58F9D61FD0495900D6F39A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58F9D71FD0495900D6F39A /* ObjCFroggie.h in Headers */,
+				BB58F9D81FD0495900D6F39A /* strippinlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBD03A2D1FCF66410091BF63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,9 +92,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BBD03A201FCF65D50091BF63 /* strippinlib */ = {
+		BB58F9D21FD0495900D6F39A /* strippinlib-extra-flags */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBD03A2A1FCF65D50091BF63 /* Build configuration list for PBXNativeTarget "strippinlib" */;
+			buildConfigurationList = BB58F9D91FD0495900D6F39A /* Build configuration list for PBXNativeTarget "strippinlib-extra-flags" */;
+			buildPhases = (
+				BB58F9D31FD0495900D6F39A /* Sources */,
+				BB58F9D51FD0495900D6F39A /* Frameworks */,
+				BB58F9D61FD0495900D6F39A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strippinlib-extra-flags";
+			productName = strippinlib;
+			productReference = BB58F9DC1FD0495900D6F39A /* libstrippinlibextra.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BBD03A201FCF65D50091BF63 /* strippinlib-default-flags */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD03A2A1FCF65D50091BF63 /* Build configuration list for PBXNativeTarget "strippinlib-default-flags" */;
 			buildPhases = (
 				BBD03A1D1FCF65D50091BF63 /* Sources */,
 				BBD03A1E1FCF65D50091BF63 /* Frameworks */,
@@ -83,7 +121,7 @@
 			);
 			dependencies = (
 			);
-			name = strippinlib;
+			name = "strippinlib-default-flags";
 			productName = strippinlib;
 			productReference = BBD03A211FCF65D50091BF63 /* libstrippinlib.a */;
 			productType = "com.apple.product-type.library.static";
@@ -97,6 +135,9 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "David Wagner";
 				TargetAttributes = {
+					BB58F9D21FD0495900D6F39A = {
+						ProvisioningStyle = Automatic;
+					};
 					BBD03A201FCF65D50091BF63 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -115,12 +156,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBD03A201FCF65D50091BF63 /* strippinlib */,
+				BBD03A201FCF65D50091BF63 /* strippinlib-default-flags */,
+				BB58F9D21FD0495900D6F39A /* strippinlib-extra-flags */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BB58F9D31FD0495900D6F39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58F9D41FD0495900D6F39A /* ObjCFroggie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBD03A1D1FCF65D50091BF63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,6 +182,47 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BB58F9DA1FD0495900D6F39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLAGS_EXTRA=1",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = strippinlibextra;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		BB58F9DB1FD0495900D6F39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"FLAGS_EXTRA=1",
+					NS_BLOCK_ASSERTIONS,
+					NDEBUG,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = strippinlibextra;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
 		BBD03A281FCF65D50091BF63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -241,8 +332,12 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLAGS_DEFAULT=1",
+				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = strippinlib;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -253,8 +348,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = "FLAGS_DEFAULT=1";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = strippinlib;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -263,6 +359,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BB58F9D91FD0495900D6F39A /* Build configuration list for PBXNativeTarget "strippinlib-extra-flags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB58F9DA1FD0495900D6F39A /* Debug */,
+				BB58F9DB1FD0495900D6F39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BBD03A1C1FCF65D50091BF63 /* Build configuration list for PBXProject "strippinlib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -272,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBD03A2A1FCF65D50091BF63 /* Build configuration list for PBXNativeTarget "strippinlib" */ = {
+		BBD03A2A1FCF65D50091BF63 /* Build configuration list for PBXNativeTarget "strippinlib-default-flags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBD03A2B1FCF65D50091BF63 /* Debug */,

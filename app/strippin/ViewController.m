@@ -9,9 +9,18 @@
 #import "ViewController.h"
 #import "strippinlib.h"
 
+#if FLAGS_DEFAULT
+#define TAG " [app default 🏳️]"
+#endif // FLAGS_DEFAULT
+
+#if FLAGS_EXTRA
+#define TAG " [app extra 🏴󠁧󠁢󠁳󠁣󠁴󠁿🏴󠁧󠁢󠁳󠁣󠁴󠁿]"
+#endif // FLAGS_EXTRA
+
+
 NSString *strippin_c_ribbit(void)
 {
-    return @"strippin, ribbit, c";
+    return @"strippin, ribbit, c" TAG;
 }
 
 @interface ViewController ()
@@ -35,12 +44,12 @@ NSString *strippin_c_ribbit(void)
 
 + (NSString *)strippinClassRibbit
 {
-    return @"strippin, ribbit, class";
+    return @"strippin, ribbit, class" TAG;
 }
 
 - (NSString *)strippinInstanceRibbit
 {
-    return @"strippin, ribbit, instance";
+    return @"strippin, ribbit, instance" TAG;
 }
 
 

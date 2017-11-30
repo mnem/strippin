@@ -6,22 +6,21 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		BB4057191FCF746C00DC6371 /* Build all */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = BB40571A1FCF746C00DC6371 /* Build configuration list for PBXAggregateTarget "Build all" */;
-			buildPhases = (
-			);
-			dependencies = (
-				BB4057201FCF747700DC6371 /* PBXTargetDependency */,
-				BB40571E1FCF747400DC6371 /* PBXTargetDependency */,
-			);
-			name = "Build all";
-			productName = "Build all";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		BB58F9DF1FD04EC800D6F39A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32561FCF6519002D1C05 /* ViewController.m */; };
+		BB58F9E01FD04EC800D6F39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32611FCF6519002D1C05 /* main.m */; };
+		BB58F9E11FD04EC800D6F39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32531FCF6519002D1C05 /* AppDelegate.m */; };
+		BB58F9E51FD04EC800D6F39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E325D1FCF6519002D1C05 /* LaunchScreen.storyboard */; };
+		BB58F9E61FD04EC800D6F39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6E325B1FCF6519002D1C05 /* Assets.xcassets */; };
+		BB58F9E71FD04EC800D6F39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E32581FCF6519002D1C05 /* Main.storyboard */; };
+		BB58F9F01FD04EE500D6F39A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32561FCF6519002D1C05 /* ViewController.m */; };
+		BB58F9F11FD04EE500D6F39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32611FCF6519002D1C05 /* main.m */; };
+		BB58F9F21FD04EE500D6F39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32531FCF6519002D1C05 /* AppDelegate.m */; };
+		BB58F9F61FD04EE500D6F39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E325D1FCF6519002D1C05 /* LaunchScreen.storyboard */; };
+		BB58F9F71FD04EE500D6F39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6E325B1FCF6519002D1C05 /* Assets.xcassets */; };
+		BB58F9F81FD04EE500D6F39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E32581FCF6519002D1C05 /* Main.storyboard */; };
+		BB58FA031FD04FC100D6F39A /* libstrippinlibextra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB58FA041FD04FC100D6F39A /* libstrippinlibextra.a */; };
+		BB58FA051FD04FC900D6F39A /* libstrippinlibextra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB58FA061FD04FC900D6F39A /* libstrippinlibextra.a */; };
 		BB6E32541FCF6519002D1C05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32531FCF6519002D1C05 /* AppDelegate.m */; };
 		BB6E32571FCF6519002D1C05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E32561FCF6519002D1C05 /* ViewController.m */; };
 		BB6E325A1FCF6519002D1C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E32581FCF6519002D1C05 /* Main.storyboard */; };
@@ -38,26 +37,13 @@
 		BBD03A3F1FCF6CE70091BF63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E32581FCF6519002D1C05 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BB40571D1FCF747400DC6371 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB6E32471FCF6519002D1C05 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB6E324E1FCF6519002D1C05;
-			remoteInfo = strippin;
-		};
-		BB40571F1FCF747700DC6371 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB6E32471FCF6519002D1C05 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BBD03A351FCF6CE70091BF63;
-			remoteInfo = "strippin simple flags";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		BB4057171FCF73EC00DC6371 /* reports */ = {isa = PBXFileReference; lastKnownFileType = folder; path = reports; sourceTree = "<group>"; };
-		BB6E324F1FCF6519002D1C05 /* strippin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strippin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB58F9EC1FD04EC800D6F39A /* strippin-default-flags-lib-extra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strippin-default-flags-lib-extra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB58F9FD1FD04EE500D6F39A /* strippin-extra-flags-lib-extra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strippin-extra-flags-lib-extra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB58FA041FD04FC100D6F39A /* libstrippinlibextra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstrippinlibextra.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB58FA061FD04FC900D6F39A /* libstrippinlibextra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstrippinlibextra.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6E324F1FCF6519002D1C05 /* strippin-default-flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strippin-default-flags.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6E32521FCF6519002D1C05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB6E32531FCF6519002D1C05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BB6E32551FCF6519002D1C05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -68,11 +54,27 @@
 		BB6E32601FCF6519002D1C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB6E32611FCF6519002D1C05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBD03A341FCF67DE0091BF63 /* libstrippinlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstrippinlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBD03A431FCF6CE70091BF63 /* strippin simple flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strippin simple flags.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD03A431FCF6CE70091BF63 /* strippin-extra-flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strippin-extra-flags.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD03A481FCF6EF80091BF63 /* dump-symbols.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "dump-symbols.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BB58F9E21FD04EC800D6F39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58FA031FD04FC100D6F39A /* libstrippinlibextra.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB58F9F31FD04EE500D6F39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58FA051FD04FC900D6F39A /* libstrippinlibextra.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB6E324C1FCF6519002D1C05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,8 +108,10 @@
 		BB6E32501FCF6519002D1C05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB6E324F1FCF6519002D1C05 /* strippin.app */,
-				BBD03A431FCF6CE70091BF63 /* strippin simple flags.app */,
+				BB6E324F1FCF6519002D1C05 /* strippin-default-flags.app */,
+				BBD03A431FCF6CE70091BF63 /* strippin-extra-flags.app */,
+				BB58F9EC1FD04EC800D6F39A /* strippin-default-flags-lib-extra.app */,
+				BB58F9FD1FD04EE500D6F39A /* strippin-extra-flags-lib-extra.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +135,8 @@
 		BBD03A321FCF67DE0091BF63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB58FA061FD04FC900D6F39A /* libstrippinlibextra.a */,
+				BB58FA041FD04FC100D6F39A /* libstrippinlibextra.a */,
 				BBD03A341FCF67DE0091BF63 /* libstrippinlib.a */,
 			);
 			name = Frameworks;
@@ -147,9 +153,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB6E324E1FCF6519002D1C05 /* strippin */ = {
+		BB58F9DD1FD04EC800D6F39A /* strippin-default-flags-lib-extra */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB6E32651FCF6519002D1C05 /* Build configuration list for PBXNativeTarget "strippin" */;
+			buildConfigurationList = BB58F9E91FD04EC800D6F39A /* Build configuration list for PBXNativeTarget "strippin-default-flags-lib-extra" */;
+			buildPhases = (
+				BB58F9DE1FD04EC800D6F39A /* Sources */,
+				BB58F9E21FD04EC800D6F39A /* Frameworks */,
+				BB58F9E41FD04EC800D6F39A /* Resources */,
+				BB58F9E81FD04EC800D6F39A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strippin-default-flags-lib-extra";
+			productName = strippin;
+			productReference = BB58F9EC1FD04EC800D6F39A /* strippin-default-flags-lib-extra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB58F9EE1FD04EE500D6F39A /* strippin-extra-flags-lib-extra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB58F9FA1FD04EE500D6F39A /* Build configuration list for PBXNativeTarget "strippin-extra-flags-lib-extra" */;
+			buildPhases = (
+				BB58F9EF1FD04EE500D6F39A /* Sources */,
+				BB58F9F31FD04EE500D6F39A /* Frameworks */,
+				BB58F9F51FD04EE500D6F39A /* Resources */,
+				BB58F9F91FD04EE500D6F39A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strippin-extra-flags-lib-extra";
+			productName = strippin;
+			productReference = BB58F9FD1FD04EE500D6F39A /* strippin-extra-flags-lib-extra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6E324E1FCF6519002D1C05 /* strippin-default-flags */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6E32651FCF6519002D1C05 /* Build configuration list for PBXNativeTarget "strippin-default-flags" */;
 			buildPhases = (
 				BB6E324B1FCF6519002D1C05 /* Sources */,
 				BB6E324C1FCF6519002D1C05 /* Frameworks */,
@@ -160,14 +202,14 @@
 			);
 			dependencies = (
 			);
-			name = strippin;
+			name = "strippin-default-flags";
 			productName = strippin;
-			productReference = BB6E324F1FCF6519002D1C05 /* strippin.app */;
+			productReference = BB6E324F1FCF6519002D1C05 /* strippin-default-flags.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BBD03A351FCF6CE70091BF63 /* strippin simple flags */ = {
+		BBD03A351FCF6CE70091BF63 /* strippin-extra-flags */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBD03A401FCF6CE70091BF63 /* Build configuration list for PBXNativeTarget "strippin simple flags" */;
+			buildConfigurationList = BBD03A401FCF6CE70091BF63 /* Build configuration list for PBXNativeTarget "strippin-extra-flags" */;
 			buildPhases = (
 				BBD03A361FCF6CE70091BF63 /* Sources */,
 				BBD03A3A1FCF6CE70091BF63 /* Frameworks */,
@@ -178,9 +220,9 @@
 			);
 			dependencies = (
 			);
-			name = "strippin simple flags";
+			name = "strippin-extra-flags";
 			productName = strippin;
-			productReference = BBD03A431FCF6CE70091BF63 /* strippin simple flags.app */;
+			productReference = BBD03A431FCF6CE70091BF63 /* strippin-extra-flags.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -192,8 +234,10 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "David Wagner";
 				TargetAttributes = {
-					BB4057191FCF746C00DC6371 = {
-						CreatedOnToolsVersion = 9.1;
+					BB58F9DD1FD04EC800D6F39A = {
+						ProvisioningStyle = Automatic;
+					};
+					BB58F9EE1FD04EE500D6F39A = {
 						ProvisioningStyle = Automatic;
 					};
 					BB6E324E1FCF6519002D1C05 = {
@@ -218,14 +262,35 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB6E324E1FCF6519002D1C05 /* strippin */,
-				BBD03A351FCF6CE70091BF63 /* strippin simple flags */,
-				BB4057191FCF746C00DC6371 /* Build all */,
+				BB6E324E1FCF6519002D1C05 /* strippin-default-flags */,
+				BB58F9DD1FD04EC800D6F39A /* strippin-default-flags-lib-extra */,
+				BBD03A351FCF6CE70091BF63 /* strippin-extra-flags */,
+				BB58F9EE1FD04EE500D6F39A /* strippin-extra-flags-lib-extra */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BB58F9E41FD04EC800D6F39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58F9E51FD04EC800D6F39A /* LaunchScreen.storyboard in Resources */,
+				BB58F9E61FD04EC800D6F39A /* Assets.xcassets in Resources */,
+				BB58F9E71FD04EC800D6F39A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB58F9F51FD04EE500D6F39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58F9F61FD04EE500D6F39A /* LaunchScreen.storyboard in Resources */,
+				BB58F9F71FD04EE500D6F39A /* Assets.xcassets in Resources */,
+				BB58F9F81FD04EE500D6F39A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB6E324D1FCF6519002D1C05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +327,32 @@
 			shellPath = /bin/sh;
 			shellScript = "/Users/mnem/Development/github/mnem/strippin/app/scripts/dump-symbols.sh";
 		};
+		BB58F9E81FD04EC800D6F39A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PROJECT_DIR}/scripts/dump-symbols.sh";
+		};
+		BB58F9F91FD04EE500D6F39A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Users/mnem/Development/github/mnem/strippin/app/scripts/dump-symbols.sh";
+		};
 		BBD03A461FCF6EC70091BF63 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +369,26 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BB58F9DE1FD04EC800D6F39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58F9DF1FD04EC800D6F39A /* ViewController.m in Sources */,
+				BB58F9E01FD04EC800D6F39A /* main.m in Sources */,
+				BB58F9E11FD04EC800D6F39A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB58F9EF1FD04EE500D6F39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB58F9F01FD04EE500D6F39A /* ViewController.m in Sources */,
+				BB58F9F11FD04EE500D6F39A /* main.m in Sources */,
+				BB58F9F21FD04EE500D6F39A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB6E324B1FCF6519002D1C05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,19 +411,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BB40571E1FCF747400DC6371 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB6E324E1FCF6519002D1C05 /* strippin */;
-			targetProxy = BB40571D1FCF747400DC6371 /* PBXContainerItemProxy */;
-		};
-		BB4057201FCF747700DC6371 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BBD03A351FCF6CE70091BF63 /* strippin simple flags */;
-			targetProxy = BB40571F1FCF747700DC6371 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		BB6E32581FCF6519002D1C05 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -333,21 +431,71 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BB40571B1FCF746C00DC6371 /* Debug */ = {
+		BB58F9EA1FD04EC800D6F39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLAGS_DEFAULT=1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BB40571C1FCF746C00DC6371 /* Release */ = {
+		BB58F9EB1FD04EC800D6F39A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = "FLAGS_DEFAULT=1";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB58F9FB1FD04EE500D6F39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLAGS_EXTRA=1",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIPFLAGS = "-S -x";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB58F9FC1FD04EE500D6F39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = "FLAGS_EXTRA=1";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIPFLAGS = "-S -x";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -467,6 +615,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLAGS_DEFAULT=1",
+				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,6 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = "FLAGS_DEFAULT=1";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +648,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FLAGS_EXTRA=1",
+				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +668,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = A8NKHWJDUL;
+				GCC_PREPROCESSOR_DEFINITIONS = "FLAGS_EXTRA=1";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.noiseandheat.ios.strippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,11 +680,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB40571A1FCF746C00DC6371 /* Build configuration list for PBXAggregateTarget "Build all" */ = {
+		BB58F9E91FD04EC800D6F39A /* Build configuration list for PBXNativeTarget "strippin-default-flags-lib-extra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB40571B1FCF746C00DC6371 /* Debug */,
-				BB40571C1FCF746C00DC6371 /* Release */,
+				BB58F9EA1FD04EC800D6F39A /* Debug */,
+				BB58F9EB1FD04EC800D6F39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB58F9FA1FD04EE500D6F39A /* Build configuration list for PBXNativeTarget "strippin-extra-flags-lib-extra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB58F9FB1FD04EE500D6F39A /* Debug */,
+				BB58F9FC1FD04EE500D6F39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -540,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB6E32651FCF6519002D1C05 /* Build configuration list for PBXNativeTarget "strippin" */ = {
+		BB6E32651FCF6519002D1C05 /* Build configuration list for PBXNativeTarget "strippin-default-flags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB6E32661FCF6519002D1C05 /* Debug */,
@@ -549,7 +716,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBD03A401FCF6CE70091BF63 /* Build configuration list for PBXNativeTarget "strippin simple flags" */ = {
+		BBD03A401FCF6CE70091BF63 /* Build configuration list for PBXNativeTarget "strippin-extra-flags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBD03A411FCF6CE70091BF63 /* Debug */,
